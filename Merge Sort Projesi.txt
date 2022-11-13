@@ -9,6 +9,17 @@ Proje 2
 Cevaplar: 
 
 [16,21,11,8,12,22] verinin ilk hali
+Proje 2
+
+[16,21,11,8,12,22] -> Merge Sort
+
+    Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+    Big-O gösterimini yazınız.
+
+
+Cevaplar: 
+
+[16,21,11,8,12,22] verinin ilk hali
 
 [16,21,11]		[8,12,22]
 [16] [21,11] 		[8,12] [22]
@@ -22,7 +33,12 @@ Cevaplar:
 [8,11,12,16,21,22]
 
 veri en kucuk gruplara ayrildiktan sonra kendi iclerinde yeniden duzenlestirilerek(sort edilerek) birlestirilir. Elde olan grup sayisi bastakinin yarisi kadar oldugunda ise soyle bir yol
-izlenir : iki grubun en kucuk elemanlari karsilastirilir ve bu ikisi arasindan en kucuk olan sayi son grubun en kucugu olarak belirlenir, sonra en kucukten bir buyuk olan sayi digeri grubun geri kalan elemanlariyla karsilastirilir ve ona gore son gruptaki yerini alir. Sonraki asamalarda da her duzeydeki sayilar karsilastirilir ve bu ikisinin arasindan en kucuk olan siraya eklendikten sonra geri kalan sayi , diger grubun elemanlariyla karsilastirilarak son listeye konur ve Big O'su da O(nlog(n))'dir
+
+izlenir : iki grubun en kucuk elemanlari karsilastirilir ve bu ikisi arasindan en kucuk olan sayi son grubun en kucugu olarak belirlenir, sonra en kucukten bir buyuk olan sayi digeri grubun
+
+geri kalan elemanlariyla karsilastirilir ve ona gore son gruptaki yerini alir. Sonraki asamalarda da her duzeydeki sayilar karsilastirilir ve bu ikisinin arasindan en kucuk olan siraya 
+
+eklendikten sonra geri kalan sayi , diger grubun elemanlariyla karsilastirilarak son listeye konur ve Big O'su da O(nlog(n))'dir
 
 [11,16,21]		[8,12,22]
 [8],[11] | 8<11 ? +
